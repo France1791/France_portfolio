@@ -1,75 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document France_Portfolio</title>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    integrity="sha256-46qynGAKLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" croosorigin="anonymous" />
-    <link href="htpp://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+sans+Pro:300,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Franceportfolio</title>
 </head>
 <body>
   <header>
-    <div class="logo">
-        <img src="" alt="">
-    </div>
-    <button class="nav-toggle" aria-label="toggle navigatation">
-        <span class="hamburger"></span>
-    </button>
-    <nav class="nav">
-        <ul class="nav__list">
-           <li class="nav__item"><a href="#" class="nav__link">Home</a></li> 
-           <li class="nav__item"><a href="#" class="nav__link">About</a></li> 
-           <li class="nav__item"><a href="#" class="nav__link">Skills</a></li> 
-           <li class="nav__item"><a href="#" class="nav__link">Education</a></li> 
-           <li class="nav__item"><a href="#" class="nav__link">Project</a></li> 
-        </ul>
+  <section class="hero">
+    <nav>
+      <div>Logo</div>
+      <ul>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#my-contacts">Contacts</a></li>
+      </ul>
     </nav>
-  </header>  
-  <!--Introduction-->
-  <section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
-        Hi, I am <strong>France Point Du Jour</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Jr Full Stack Java Developer</p>
-    <img src="coding-science.jpeg" alt="picture of code">
-  </section>
-
-  <!--About Me-->
-  <section class="who-i-am" id="about">
-    <h2 class="section__title section__title--about">Who I am</h2>
-    <p class="section__subtitle section__subtitle--about"></p>
-    <div class="about-me__body">
-    <p>Junior Full Stack Developer based in New York, I have just recently completed a Jr Full Stack Java Developer program with Generation USA where I was able to add to my skills and experiences on programming, implementing, developing and support web-based projects. I am also working in developing web applications using JavaScript, HTML and CSS (bootstrap, foundation and Intuit). I have been always interested in tech and enjoy programming. My strong points include problem-solving, persistence, communication skills, comfortable to work as an individual or as part of a team. I am currently looking to progress my career by taking on a Junior Full Stack Developer or Software Engineer role.</p>
+    <div class="hero-area">
+      <div class="hero-text">
+        <h1>France PointDuJour</h1>
+        <p>Full Stack Developer</p>
+        <div class="button"><a href="#about-me">About me</a></div>
+      </div>
+      <div class="socials">
+        <div>
+        <a href="https://twitter.com/jour_france" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+        </a>
+        </div>
+       <div>
+        <a href="linkedin.com/in/france-point-du-jour-5968b423b" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+       </div>
+       <div>
+        <a href="https://github.com/France1791" class="social">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+        </a>
+       </div>
+      </div>
     </div>
-    <img src="Snapchat-1334284873.jpg" alt="picture of france">
-  </section>
-  <!--Skills-->
-
-  <!--Projects-->
-  <section class="my-work" id="projects">
-    <h2 class="section__title">My Projects</h2>
-    <p class="section__subtitle"></p>
-
-    <div class="portfolio">
-        <a href="#" class="portfolio__item">
-            <img src=" " alt=" screenshot of my about me project" class=""portfolio__img>
-        </a>
-        <a href="#" class="portfolio__item">
-            <img src=" " alt=" screenshot of my about me project" class=""portfolio__img>
-        </a>
-        <a href="#" class="portfolio__item">
-            <img src=" " alt=" screenshot of my about me project" class=""portfolio__img>
-        </a>
-        <a href="#" class="portfolio__item">
-            <img src=" " alt=" screenshot of my about me project" class=""portfolio__img>
-        </a>
+    </section>
+  </header>
+  <main>
+  <section class="sub-section" id="about-me">
+    <div class="info">
+      <h2>About Me</h2>
+      <p>Hello, my name is France, a bilangual Software Developer based in NY</p>
+    </div>
+    <div class="headshot-container">
+      <img class="headshot" src="Snapchat-1334284873.jpg" alt="france-picture"
     </div>
   </section>
+  <section class="sub">
+    <h2>Skills</h2>
+    <div class=""
+  </section>
+  <section class="sub-section-alternative" id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <img class="project-image" src="" alt="screenshot of project1"/>
+      <h3> project1</h3>
+      <p class="subtext">This is project one</p>
+      <hr/>
+      <p class="subtext"><a class="project-link" href="">View here</a></p>
+    </div>
+    <div class="project-card">
+      <img class="project-image" src="" alt="screenshot of project2"/>
+      <h3> project2</h3>
+      <p class="subtext">This is an small website where I talk a bit about me, my passion and my goals. I enjoyed making it while getting more practice on HTML5 and CSS.</p>
+      <p class="subtext"><a class="project-link" href="https://replit.com/@France17/AboutFranceProject?v=1#index.html">View here</a></p>
+    </div>
+    <div class="project-card">
+      <img class="project-image" src="" alt="screenshot of project3"/>
+      <h3>JS Project</h3>
+      <p class="subtext">I had fun building this project using HTML, CSS and JavaScript.</p>
+      <p class="subtext"><a class="project-link" href="https://github.com/France1791/JS-test">View here</a></p>
+    </div>
+  </div>
+  </section>
+  </main>
+  <footer id="my-contacts">
+    <h2> Contact Me</h2>
+    <p>francepointdujour@gmail.com</p>
+  </footer>
 
-
+  <script scr="app.js"></script>
 </body>
 </html>
